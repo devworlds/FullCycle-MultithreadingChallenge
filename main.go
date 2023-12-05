@@ -1,5 +1,7 @@
 package main
 
+import "goroutines/async"
+
 func main() {
-	GetApi()
+	async.GetApi()
 }
